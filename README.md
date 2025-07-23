@@ -2,7 +2,11 @@
 
 Here is my implementations of the Pure Pursuit algorithm in Python . The Pure Pursuit algorithm is a path tracking algorithm used in robotics and autonomous vehicles to follow a predefined path.
 It calculates the steering angle required to follow a path based on the current position and orientation of the vehicle.
-
+## Tools used:
+- Ros2 Humble
+- Rviz
+- Gazebo simulator
+- 
 ## Features
 * Simple Pure Pursuit:
     - Implements the basic Pure Pursuit algorithm.
