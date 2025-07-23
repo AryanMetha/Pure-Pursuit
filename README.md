@@ -6,7 +6,7 @@ It calculates the steering angle required to follow a path based on the current 
 - Ros2 Humble
 - Rviz
 - Gazebo simulator
-- 
+  
 ## Features
 * Simple Pure Pursuit:
     - Implements the basic Pure Pursuit algorithm.
