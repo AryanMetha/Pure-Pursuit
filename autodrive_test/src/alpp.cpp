@@ -60,7 +60,7 @@ public:
         race_pub_ = this->create_publisher<visualization_msgs::msg::MarkerArray>("/raceline", 10);
 
         // Load the path
-        load_raceline_csv("/home/aryan/workspaces/new_ws/src/autodrive_test/new_map_2_modified.csv");
+        load_raceline_csv("../new_map_2_modified.csv");
 
         // Main loop, 100 Hz
         timer_ = this->create_wall_timer(
